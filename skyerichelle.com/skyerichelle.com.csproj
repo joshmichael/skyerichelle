@@ -49,6 +49,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sabio.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sabio.Data.1.0.2\lib\net40\Sabio.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -187,26 +191,98 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BaseService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\about-1.jpg" />
+    <Content Include="Assets\about-2.jpg" />
+    <Content Include="Assets\about-3.jpg" />
+    <Content Include="Assets\background-1.jpg" />
+    <Content Include="Assets\background-10.jpg" />
+    <Content Include="Assets\background-2.jpg" />
+    <Content Include="Assets\background-3-1.jpg" />
+    <Content Include="Assets\background-3-2.jpg" />
+    <Content Include="Assets\background-3.jpg" />
+    <Content Include="Assets\background-4.jpg" />
+    <Content Include="Assets\background-5.jpg" />
+    <Content Include="Assets\background-6.jpg" />
+    <Content Include="Assets\background-7.jpg" />
+    <Content Include="Assets\background-8.jpg" />
+    <Content Include="Assets\background-9.jpg" />
+    <Content Include="Assets\client-1.png" />
+    <Content Include="Assets\client-2.png" />
+    <Content Include="Assets\client-3.png" />
+    <Content Include="Assets\client-4.png" />
+    <Content Include="Assets\favicon-retina-ipad.png" />
+    <Content Include="Assets\favicon-retina-iphone.png" />
+    <Content Include="Assets\favicon-standard-ipad.png" />
+    <Content Include="Assets\favicon-standard-iphone.png" />
+    <Content Include="Assets\favicon.png" />
+    <Content Include="Assets\vertical-gallery-1.jpg" />
+    <Content Include="Assets\vertical-gallery-2.jpg" />
+    <Content Include="Assets\vertical-gallery-3.jpg" />
+    <Content Include="Assets\vertical-gallery-4.jpg" />
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\ionicons.min.css" />
+    <Content Include="Content\jquery.mCustomScrollbar.css" />
+    <Content Include="Content\jquery.pagepiling.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\swipebox.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\ionicons.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\ionicons.eot" />
+    <Content Include="fonts\ionicons.ttf" />
+    <Content Include="fonts\ionicons.woff" />
+    <Content Include="ReadMe.md" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\classie.js" />
+    <Content Include="Scripts\contact-me.js" />
+    <Content Include="Scripts\dialogFx.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.easings.min.js" />
+    <Content Include="Scripts\jquery.mb.YTPlayer.js" />
+    <Content Include="Scripts\jquery.mCustomScrollbar.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.pagepiling-horizontal.js" />
+    <Content Include="Scripts\jquery.pagepiling.js" />
+    <Content Include="Scripts\jquery.swipebox.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\main-horizontal.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\map.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr.custom.js" />
+    <Content Include="Scripts\placeholder.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
@@ -249,9 +325,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
